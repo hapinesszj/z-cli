@@ -1,0 +1,49 @@
+{
+  "name": "@byte-sculpt/git",
+  "version": "0.0.0",
+  "description": "dragon-slayer git",
+  "keywords": [
+    "git"
+  ],
+  "author": "hapinesszj <hapinesszj@gmail.com>",
+  "homepage": "https://github.com/hapinesszj/z-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hapinesszj/z-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/git.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hapinesszj/z-cli/issues"
+  },
+  "dependencies": {
+    "@byte-sculpt/cloudpublish": "file:../cloudpublish",
+    "@byte-sculpt/log": "file:../../utils/log",
+    "@byte-sculpt/request": "file:../../utils/request",
+    "@byte-sculpt/tools": "file:../../utils/tools",
+    "axios": "^1.4.0",
+    "fs-extra": "10.0.0",
+    "inquirer": "8.1.0",
+    "listr": "0.14.3",
+    "rxjs": "7.2.0",
+    "semver": "7.3.5",
+    "simple-git": "2.39.0",
+    "terminal-link": "2.1.1",
+    "user-home": "3.0.0"
+  },
+  "gitHead": "c1e841de5f417084dbe98c262f2b7e7e8b8cced8"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "root",
+  "private": true,
+  "author": "hapinesszj <hapinesszj@gmail.com>",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hapinesszj/z-cli.git"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.5.0",
+    "@commitlint/config-conventional": "^18.5.0",
+    "cz-customizable": "^7.0.0",
+    "husky": "^7.0.1",
+    "lerna": "^3.22.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  }
+}
