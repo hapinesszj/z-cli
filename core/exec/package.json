@@ -1,6 +1,6 @@
 {
   "name": "@byte-sculpt/exec",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "dragon-slayer exec",
   "keywords": [
     "exec"
@@ -32,8 +32,8 @@
   },
   "dependencies": {
     "@byte-sculpt/log": "file:../../utils/log",
-    "@byte-sculpt/tools": "file:../../utils/tools",
-    "@byte-sculpt/package": "file:../../models/package"
+    "@byte-sculpt/package": "file:../../models/package",
+    "@byte-sculpt/tools": "file:../../utils/tools"
   },
   "gitHead": "c1e841de5f417084dbe98c262f2b7e7e8b8cced8"
 }
